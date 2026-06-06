@@ -42,32 +42,28 @@ Loads the Netflix titles dataset into a MySQL database and provides an interacti
 
 ## ⚙️ Installation & Setup
 
-### 1. Clone the repository
-```bash
-git clone https://github.com/Kandarphada18/netflix-tkinter-mysql.git
-cd netflix-tkinter-mysql
 ```
 
-### 2. Install required libraries
+### 1. Install required libraries
 ```bash
 pip install -r requirements.txt
 ```
 
-### 3. Install and start MySQL
+### 2. Install and start MySQL
 - Download MySQL Community Server from https://dev.mysql.com/downloads/
 - Start MySQL and note your root password
 
-### 4. Add your MySQL password
+### 3. Add your MySQL password
 Open `netflix_explorer.py` and update line with your password:
 ```python
 "password": "your_password_here",
 ```
 
-### 5. Place the dataset
+### 4. Place the dataset
 Make sure `netflix_titles.csv` is in the same folder as `netflix_explorer.py`.
 Download the dataset from: https://www.kaggle.com/datasets/shivamb/netflix-shows
 
-### 6. Run the app
+### 5. Run the app
 ```bash
 python netflix_explorer.py
 ```
